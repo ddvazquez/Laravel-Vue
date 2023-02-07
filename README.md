@@ -1,10 +1,6 @@
-## Utopig Games
+## Tree-Nation Games
 
-Hola! Me presento, mi nombre es PIGGY y soy la CEO de Utopig Studio, ¿cómo estás? ¡Es un placer conocerte!
-
-Te voy a confesar una cosa: yo de todo esto de programación no tengo ni pajolera idea, yo a lo que me dedico es a hacer feliz a mi equipo. Es por eso que te voy a proponer un reto a ver si me puedes ayudar.
-
-A la mayoría del equipo le gustan los videojuegos (yo no sé qué le ven a eso de sentarse en una silla y darle a botones, pero bueno...) y me gustaría que puedan compartir los juegos que tiene cada uno. Pedí ayuda a Maria, Antonio, Nuria, Llorenç y Willi para desarrollar esta herramienta. En su momento me la dieron pero se quedaron a medias :( y ahora siempre me dicen lo mismo, que tienen mucho trabajo y que no tienen tiempo :( Tú seguro que me puedes ayudar, ¿a que sí? :D
+A la mayoría del equipo le gustan los videojuegos y me gustaría que puedan compartir los juegos que tiene cada uno. Pedí ayuda a cada persona del equipo para desarrollar esta herramienta. En su momento me la dieron pero se quedaron a medias.
 
 ## Objetivos
 
@@ -12,7 +8,7 @@ Los objetivos son los siguientes:
 
 - Listar los videjuegos de la tabla 'games' en la página principal con su imagen, título y los primeros 100 caracteres de la descripción.
 - Apretando el botón view, cargar los detalles del juego en la misma página, sin refrescar. Puedes usar la maquetación que hay en la página de detalles, en el blade game-detail.blade.php.
-- En la página de detalles verás que hay información que aún no existe en la base de datos. Añade los campos con una migración nueva que además rellene los campos de juegos existentes con datos aleatorios.
+- En la página de detalles verás que hay información que aún no existe en la base de datos. Añade los campos con una migración nueva, que además rellene los campos nuevos de los juegos existentes con datos aleatorios.
 - En la página de detalle, al hacer click en el botón back, debemos volver al listado.
 - Al eliminar un juego se debe actualizar el listado de juegos sin tener que refrescar la página.
 
