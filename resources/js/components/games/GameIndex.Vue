@@ -8,7 +8,7 @@
                     <div class="card-body">
                         <h5 class="card-title">{{ game.name}}</h5>
 
-                        <p class="card-text">{{ game.description}}.</p>
+                        <p class="card-text">{{ game.description.substring(0,100)}}.</p>
 
                         <div class="h-100 d-flex flex-row">
                             <router-link :to="{ name: 'games.show' , params: { id: game.id }}" class="btn btn-primary me-2">View</router-link>

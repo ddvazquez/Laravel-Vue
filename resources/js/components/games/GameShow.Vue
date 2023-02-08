@@ -16,7 +16,9 @@
                                 </div>
                                 <div class="mb-2">
                                     <h4>Description</h4>
-                                    <p class="card-text">{{ game.description.substring(0,100)}}.</p>
+                                    <p class="card-text">
+                                        {{ game.description }}
+                                    </p>
                                 </div>
                                 <div class="mb-2">
                                     <h4>Release date</h4>
