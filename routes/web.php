@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('game-list');
-});
+Route::get('/', 'GameController');
+
+
+Route::view('/{any}', 'main')
+    ->where('any', '.*');
