@@ -29,7 +29,7 @@
                                     <p>59.99</p>
                                 </div>
                                 <div class="mb-2">
-                                    <button type="button" class="btn btn-dark">Go Back</button>
+                                    <router-link :to="{ name: 'games.index'}" class="btn btn-dark">Go Back</router-link>
                                 </div>
                             </div>
                         </div>
