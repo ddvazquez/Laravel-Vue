@@ -13,7 +13,7 @@
                         <div class="h-100 d-flex flex-row">
                             <router-link :to="{ name: 'games.show' , params: { id: game.id }}" class="btn btn-primary me-2">View</router-link>
 
-                            <button type="button" class="btn btn-warning position-end">Delete</button>
+                            <a id="deleteBtn" @click="deleteGame(game)" href="#" role="button" class="btn btn-warning position-end">Delete</a>
                         </div>
                     </div>
                 </div>
@@ -28,12 +28,20 @@ import { onMounted } from 'vue';
 
 export default {
     setup() {
-        const { games, getGames } = useGames()
+        const { games, getGames, removeGame } = useGames()
 
         onMounted(getGames)
 
+        const deleteGame = async ( game ) => {
+            if (!window.confirm(`delete  ${game.name}?`)) {
+                return
+            }
+            await removeGame(game.id);
+        };
+
         return {
-            games
+            games,
+            deleteGame
         }
     }
 }
