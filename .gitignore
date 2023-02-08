@@ -10,3 +10,7 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+/.idea/fullstack-laravel-vue-test.iml
+/.idea/modules.xml
+/.idea/php.xml
+/.idea/vcs.xml

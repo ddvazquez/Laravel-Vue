@@ -1,4 +1,4 @@
-## Tree-Nation Games
+## Games
 
 A la mayoría del equipo le gustan los videojuegos y me gustaría que puedan compartir los juegos que tiene cada uno. Pedí ayuda a cada persona del equipo para desarrollar esta herramienta. En su momento me la dieron pero se quedaron a medias.
 
