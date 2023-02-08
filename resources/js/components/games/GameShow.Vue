@@ -22,11 +22,11 @@
                                 </div>
                                 <div class="mb-2">
                                     <h4>Release date</h4>
-                                    <p>27-10-2017</p>
+                                    <p>{{ game.release_date }}</p>
                                 </div>
                                 <div class="mb-2">
                                     <h4>Nintendo eShop price</h4>
-                                    <p>59.99</p>
+                                    <p>{{ game.price }} €</p>
                                 </div>
                                 <div class="mb-2">
                                     <router-link :to="{ name: 'games.index'}" class="btn btn-dark">Go Back</router-link>
